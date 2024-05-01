@@ -9,7 +9,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Agent</RootNamespace>
         <AssemblyName>Agent</AssemblyName>
-        <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <LangVersion>7.3</LangVersion>
     </PropertyGroup>
@@ -41,7 +41,9 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Commands\TestCommand.cs" />
         <Compile Include="Extensions.cs" />
+        <Compile Include="Models\AgentCommand.cs" />
         <Compile Include="Models\AgentMetadata.cs" />
         <Compile Include="Models\AgentTask.cs" />
         <Compile Include="Models\AgentTaskResult.cs" />
